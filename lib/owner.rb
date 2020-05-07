@@ -85,7 +85,7 @@ end
     self.cats.each do |cats|
     binding.pry
      
-        cat.mood = "nervous"
+        cats.mood = "nervous"
         # binding.pry
       
       
