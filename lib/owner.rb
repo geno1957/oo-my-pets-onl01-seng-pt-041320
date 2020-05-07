@@ -81,7 +81,7 @@ end
 end 
         
     def feed_cats 
-      @cat.each do |cat|
+      self.cat.each do |cat|
         cat.mood = 'happy'
       end 
     end 
