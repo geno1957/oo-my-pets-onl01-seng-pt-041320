@@ -84,10 +84,12 @@ end
    def sell_pets
     self.cats.each do |cats|
         cats.mood = "nervous"
-        binding.pry
+        cats.owner = nil 
+        # binding.pry
     end
     self.dogs.each do |dogs|
       dogs.mood = "nervous"
+      dogs.owner = nil 
     end 
   end
 
