@@ -68,14 +68,6 @@ end
     end 
   end 
     
-    def sell_pets 
-      @pets.each do |type , name|
-      name.each do |pet|
-      pet.mood = 'nervous'
-    end 
-  end 
-  @pets = {}
-end 
         
     def feed_cats 
       self.cats.each do |cat|
@@ -90,8 +82,9 @@ end
   end
   
    def sell_pets
+     binding.pry 
     self.collect do |species|
-      binding.pry
+    
       owner.each do |pet|
         pet.mood = "nervous"
       end
