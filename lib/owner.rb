@@ -83,7 +83,7 @@ end
   
    def sell_pets
      binding.pry 
-    self.collect do |species|
+    self.pets do |species|
     
       owner.each do |pet|
         pet.mood = "nervous"
