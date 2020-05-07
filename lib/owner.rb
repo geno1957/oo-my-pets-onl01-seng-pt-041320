@@ -84,8 +84,11 @@ end
    def sell_pets
     self.cats.each do |cats|
         cats.mood = "nervous"
-        # binding.pry
+        binding.pry
     end
+    self.dogs.each do |dogs|
+      dogs.mood = "nervous"
+    end 
   end
 
 end 
