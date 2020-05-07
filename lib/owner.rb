@@ -28,9 +28,6 @@ class Owner
     "I am a #{@species}."
   end
   
-  def pets
-    @@pets
-  end
   
   def cats 
     Cat.all.select do |cat|
