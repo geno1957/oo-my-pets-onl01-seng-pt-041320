@@ -86,8 +86,9 @@ end
     # binding.pry
       names.each do |pet|
         pet.mood = "nervous"
+        binding.pry
       end
-      self.clear
+      
     end
   end
 
