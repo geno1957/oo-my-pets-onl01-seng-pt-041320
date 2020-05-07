@@ -87,7 +87,7 @@ end
       names.each do |pet|
         pet.mood = "nervous"
       end
-      owner.clear
+      self.clear
     end
   end
 
